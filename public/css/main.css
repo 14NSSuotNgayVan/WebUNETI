@@ -1,0 +1,120 @@
+.text-header {
+    color: var(--text-header-color);
+}
+
+.text-heading {
+    color: var(--heading-color);
+}
+
+#navbar{
+    transition: all 0.3s;
+}
+.bg-btn {
+    background-color: var(--bg-color-btn);
+}
+
+.bg-btn-hover {
+    background-color: var(--bg-color-btn-hover);
+}
+
+.shadow-box {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-box-around {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.shadow-btn {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide>img,
+.banner-slide-img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.slide-banner-text{
+    display: block;
+}
+.swiper-achieve{
+    width: 100%;
+    max-width: 950px;
+    border-radius:12px;
+    background-image: url('../img/achieve/background-dep-may-xanh-hong.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:30px!important;
+    padding-bottom:30px!important;
+}
+
+.achieve>.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 470px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 30px !important;
+}
+
+.slide-nav-active {
+    color: #416FF4;
+}
+
+.slide-show {
+    display: flex;
+}
+
+.slide-hidden {
+    display: none;
+}
+
+.mask-hidden {
+    transition: all 1s;
+}
+
+.border-left-rounded {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.ml-0-important {
+    margin-left: 0px !important;
+}
+
+.book-content.active {
+    display: block;
+}
+
+.active {
+    transition: all 1s;
+}
+
+.font-DMsans {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shadow-little {
+    box-shadow: 20px 20px #dddddd;
+}
+
+.show-card {
+    display: flex;
+}
+
+.h-350ipt{
+    height: 370px!important;
+}
